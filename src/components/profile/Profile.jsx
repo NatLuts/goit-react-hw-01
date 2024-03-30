@@ -9,6 +9,7 @@ const Profile = ({ name, tag, location, image, stats }) => {
         <p className={s.user_tag}>{tag}</p>{" "}
         <p className={s.user_location}>{location}</p>
       </div>
+
       <ul className={s.stats_list}>
         <li className={s.stats_item}>
           <span>Followers</span>
