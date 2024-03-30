@@ -1,0 +1,23 @@
+.table_wrap {
+  font-size: 20px;
+  width: 800px;
+  margin: 20px auto;
+  border: 2px solid gray;
+  border-radius: 5px;
+  border-collapse: collapse;
+}
+.thead {
+  background-color: black;
+  color: white;
+}
+
+.td {
+  padding: 5px 60px;
+  border: 1px solid black;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.tr:nth-child(2n) {
+  background-color: rgb(176, 171, 171);
+}

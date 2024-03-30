@@ -1,0 +1,19 @@
+.item {
+  height: 130px;
+}
+
+.name {
+  font-size: 25px;
+}
+
+.avatar {
+  margin: 0 auto;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
