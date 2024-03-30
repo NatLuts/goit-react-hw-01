@@ -1,0 +1,67 @@
+.container {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  border: 4px solid black;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.img_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.img {
+  background-color: rgb(58, 58, 58);
+  border-radius: 50%;
+  height: 200px;
+}
+
+.user_name {
+  font-size: 50px;
+  font-weight: 700;
+  color: black;
+  margin-bottom: 15px;
+}
+
+.user_tag {
+  font-size: 35px;
+  color: grey;
+}
+
+.user_location {
+  font-size: 40px;
+  color: grey;
+  margin-bottom: 20px;
+}
+
+.stats_list {
+  font-size: 30px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  background-color: rgb(165, 164, 164);
+}
+
+.stats_item {
+  display: flex;
+  flex-direction: column;
+  border-top: 4px solid rgb(88, 86, 86);
+
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.stats_item:not(:first-child) {
+  border-left: 4px solid rgb(88, 86, 86);
+}
+.stats_span {
+  font-weight: bold;
+}
